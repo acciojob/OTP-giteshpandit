@@ -14,4 +14,9 @@ codes.forEach((input, index) => {
       }
     }
   });
+
+  // Set focus on first input when the page loads
+  if (index === 0) {
+    input.focus();
+  }
 });
